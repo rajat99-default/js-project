@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Record </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body onload="load()">
+    <div id="showdata" class="child1">
+        <h1> Sign up </h1>
+        <input type="text" id="nam" placeholder=" Your Name">
+        <input type="text" id="uname" placeholder="Your Email">
+        <input type="text" id="mob" placeholder="Your Number">
+        <input type="password" id="pass" placeholder="Password">
+        <input type="password" id="cpass" placeholder="Repeat your Password">
+        <div class="checkbox">
+        <input type="checkbox" id="check" placeholder="none"> 
+        <label for="check"> I agree all statements in <b> Terms of Service </b> </label>
+        </div>
+        <button onclick="register()"> Register </button>
+    </div>
+    <table id="showing">
+            
+    </table>
+    <script src="form.js">
+    </script>
+</body>
+</html>

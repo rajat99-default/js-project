@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "registration": [
+    {
+      "Names": "Satyam Badal ",
+      "Username": "Satyambadal48@gmail.com",
+      "Number": "6264263949",
+      "Password": "@jerry0101",
+      "Confirm_password": "@jerry0101",
+      "id": 1
+    },
+    {
+      "Names": "sumit jadon",
+      "Username": "sumit43013@gmail.com",
+      "Number": "6465265656",
+      "Password": "sumit@123",
+      "Confirm_password": "sumit@123",
+      "id": 2
+    },
+    {
+      "Names": "saransh ",
+      "Username": "saransh43013@gmail.com",
+      "Number": "6565264646",
+      "Password": "saransh@123",
+      "Confirm_password": "saransh@123",
+      "id": 3
+    },
+    {
+      "Names": "",
+      "Username": "",
+      "Number": "",
+      "Password": "",
+      "Confirm_password": "",
+      "id": 14
+    },
+    {
+      "Names": "",
+      "Username": "",
+      "Number": "",
+      "Password": "",
+      "Confirm_password": "",
+      "id": 15
+    }
+  ]
+}
