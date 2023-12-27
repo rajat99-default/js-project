@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SetInterval </title>
+    <style>
+        div{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-size: larger;
+        }
+    </style>
+    <script>
+       let store = '';
+       let val = 'we are devloper';
+       let arr = 0;
+        setInterval(load,200)
+        function load(){
+            if (arr < val.length){
+                store = store + val[arr];
+                document.getElementById('show').innerHTML = store;                
+                arr++;
+            }
+            else{
+                store = '';
+                arr = 0;
+            }
+        }
+    </script>
+</head>
+<body onload="loading">
+    <section id="mainsection">
+        <div id="show">
+
+        </div>
+    </section>
+</body>
+</html>

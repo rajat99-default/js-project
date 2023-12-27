@@ -1,0 +1,125 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+
+}
+#loginform{
+    margin-top: 15%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    box-shadow: 0px 0px 10px 10px wheat;
+}
+#signinform{
+    margin-top: 5%;
+    width: 400px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    box-shadow: 0px 0px 10px 10px wheat;
+
+}
+input[type="text"],input[type="password"],button,select{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+}
+aside ul li img{
+    border-radius: 50%;   
+}
+aside ul li{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    list-style: none;
+    padding: 32px 70px 32px 20px;
+}
+aside{
+    background-color: black;
+    float: left;
+    padding: 20px;
+}
+#ad{
+    font-size: 44px;
+    width: 100%;
+    padding: 20px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
+#admindatatable{
+    height: auto;
+    width: auto;
+    border: solid 1px;
+    margin-top: 1%;
+}
+#admindatatable tr td{
+    height: 40px;
+    width: 200px;
+    border: solid 1px;
+    overflow: auto;
+    font-size: larger;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+#dashboard{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+#button button{
+    height: 40px;
+    width: 200px;
+    margin-top: 1%;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#button button{
+    cursor: pointer;
+}
+#button div,#dashboard p{
+    height: 40px;
+    width: 200px;
+    margin-top: 1%;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content:  space-around;
+    gap: 20%;
+    border-radius: 50px;
+}
+#searchbar{
+    height: 80px;
+    justify-content: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
