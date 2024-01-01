@@ -116,6 +116,16 @@
       "images": "https://icon-library.com/images/admin-icon/admin-icon-12.jpg",
       "role": "student",
       "id": 10
+    },
+    {
+      "Names": "qs",
+      "Username": "nfm.qsl,mq",
+      "Mobile_Number": "`w2e3rgt4yu",
+      "Password": "1232435y4657",
+      "Confirm_Password": "1232rt435y4u657",
+      "images": "",
+      "role": "student",
+      "id": 11
     }
   ]
 }
